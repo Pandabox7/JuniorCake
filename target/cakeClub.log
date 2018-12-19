@@ -1,0 +1,31 @@
+2018-12-18 09:35:25.685  INFO 20200 --- [restartedMain] com.nortal.cake_club.CakeClubApp         : Starting CakeClubApp on LAPTOP-QE9C7OVU with PID 20200 (started by Lindberg in C:\Users\Lindberg\Downloads\Junior Java test, winter 2018-19)
+2018-12-18 09:35:25.694 DEBUG 20200 --- [restartedMain] com.nortal.cake_club.CakeClubApp         : Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-12-18 09:35:25.698  INFO 20200 --- [restartedMain] com.nortal.cake_club.CakeClubApp         : The following profiles are active: swagger,dev
+2018-12-18 09:35:32.742 DEBUG 20200 --- [restartedMain] c.n.cake_club.config.AsyncConfiguration  : Creating Async Task Executor
+2018-12-18 09:35:33.860 DEBUG 20200 --- [restartedMain] c.n.c.config.MetricsConfiguration        : Registering JVM gauges
+2018-12-18 09:35:33.896 DEBUG 20200 --- [restartedMain] c.n.c.config.MetricsConfiguration        : Monitoring the datasource
+2018-12-18 09:35:33.899 DEBUG 20200 --- [restartedMain] c.n.c.config.MetricsConfiguration        : Initializing Metrics JMX reporting
+2018-12-18 09:35:36.175 DEBUG 20200 --- [restartedMain] c.n.c.config.LiquibaseConfiguration      : Configuring Liquibase
+2018-12-18 09:35:36.538  WARN 20200 --- [cake-club-Executor-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Starting Liquibase asynchronously, your database might not be ready at startup!
+2018-12-18 09:35:38.455 DEBUG 20200 --- [cake-club-Executor-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Liquibase has updated your database in 1911 ms
+2018-12-18 09:35:41.530 DEBUG 20200 --- [restartedMain] c.nortal.cake_club.config.WebConfigurer  : Registering CORS filter
+2018-12-18 09:35:41.733  INFO 20200 --- [restartedMain] c.nortal.cake_club.config.WebConfigurer  : Web application configuration, using profiles: swagger
+2018-12-18 09:35:41.734 DEBUG 20200 --- [restartedMain] c.nortal.cake_club.config.WebConfigurer  : Initializing Metrics registries
+2018-12-18 09:35:41.743 DEBUG 20200 --- [restartedMain] c.nortal.cake_club.config.WebConfigurer  : Registering Metrics Filter
+2018-12-18 09:35:41.745 DEBUG 20200 --- [restartedMain] c.nortal.cake_club.config.WebConfigurer  : Registering Metrics Servlet
+2018-12-18 09:35:41.752 DEBUG 20200 --- [restartedMain] c.nortal.cake_club.config.WebConfigurer  : Initialize H2 console
+2018-12-18 09:35:41.754  INFO 20200 --- [restartedMain] c.nortal.cake_club.config.WebConfigurer  : Web application fully configured
+2018-12-18 09:35:42.250 DEBUG 20200 --- [restartedMain] c.n.c.security.jwt.TokenProvider         : Using a Base64-encoded JWT secret key
+2018-12-18 09:35:48.211 DEBUG 20200 --- [restartedMain] c.n.c.config.DatabaseConfiguration       : Starting H2 database
+2018-12-18 09:35:50.265 DEBUG 20200 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Starting Swagger
+2018-12-18 09:35:50.296 DEBUG 20200 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Started Swagger in 31 ms
+2018-12-18 09:35:53.177  INFO 20200 --- [restartedMain] com.nortal.cake_club.CakeClubApp         : Started CakeClubApp in 31.082 seconds (JVM running for 34.817)
+2018-12-18 09:35:53.235  INFO 20200 --- [restartedMain] com.nortal.cake_club.CakeClubApp         : 
+----------------------------------------------------------
+	Application 'cakeClub' is running! Access URLs:
+	Local: 		http://localhost:8080/
+	External: 	http://192.168.43.74:8080/
+	Profile(s): 	[swagger, dev]
+----------------------------------------------------------
+2018-12-18 11:02:06.154  WARN 20200 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h2m59s469ms216µs243ns).
+2018-12-18 18:29:37.829  WARN 20200 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h12m35s531ms733µs89ns).
